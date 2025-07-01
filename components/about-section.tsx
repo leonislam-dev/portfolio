@@ -10,7 +10,7 @@ const skills = [
   {
     icon: Code,
     title: "Full-Stack Development",
-    description: "Expert in modern web technologies including React, Next.js, Node.js, and cloud platforms.",
+    description: "Expert in modern web and technologies including React, Next.js, Node.js, and cloud platforms.",
   },
   {
     icon: Brain,
