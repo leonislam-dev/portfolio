@@ -20,7 +20,7 @@ const skills = [
   {
     icon: Rocket,
     title: "Innovation & Research",
-    description: "Passionate about exploring cutting-edge technologies and implementing innovative solutions.",
+    description: "Passionate about exploring technologies and implementing innovative solutions.",
   },
   {
     icon: Users,
