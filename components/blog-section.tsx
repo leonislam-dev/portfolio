@@ -15,8 +15,8 @@ const blogPosts = [
     excerpt:
       "Exploring how artificial intelligence is revolutionizing the way we build and interact with web applications.",
     image: "/placeholder.svg?height=300&width=500",
-    date: "2024-01-15",
-    readTime: "5 min read",
+    date: "2025-01-15",
+    readTime: "6 min read",
     category: "AI & Technology",
   },
   {
@@ -25,7 +25,7 @@ const blogPosts = [
     excerpt:
       "A comprehensive guide on implementing deep learning models in real-world applications and scaling them for production.",
     image: "/placeholder.svg?height=300&width=500",
-    date: "2024-01-10",
+    date: "2025-01-10",
     readTime: "8 min read",
     category: "Machine Learning",
   },
@@ -34,7 +34,7 @@ const blogPosts = [
     title: "Building Scalable React Applications",
     excerpt: "Best practices and architectural patterns for creating maintainable and scalable React applications.",
     image: "/placeholder.svg?height=300&width=500",
-    date: "2024-01-05",
+    date: "2025-01-05",
     readTime: "6 min read",
     category: "Web Development",
   },
