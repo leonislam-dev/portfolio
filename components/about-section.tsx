@@ -24,7 +24,7 @@ const skills = [
   },
   {
     icon: Users,
-    title: "Team Leadership",
+    title: "Leadership",
     description: "Experienced in leading development teams and mentoring junior developers.",
   },
 ]
