@@ -22,7 +22,11 @@ const skills = [
     title: "Innovation & Research",
     description: "Passionate about exploring technologies, and implementing innovative solutions.",
   },
-
+  {
+    icon: Users,
+    title: "Leadership",
+    description: "Experienced in leading development teams and mentoring junior developers.",
+  },
 ]
 
 export function AboutSection() {
