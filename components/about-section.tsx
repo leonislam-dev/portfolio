@@ -108,7 +108,7 @@ export function AboutSection() {
                     <skill.icon className="h-6 w-6 text-primary" />
                   </div>
                   <h4 className="font-semibold border mb-2 underline">{skill.title}</h4>
-                  <p className="text-sm text-muted-foreground">{skill.description}</p>
+                  <p className="text-md text-muted-foreground">{skill.description}</p>
                 </CardContent>
               </Card>
             </motion.div>
