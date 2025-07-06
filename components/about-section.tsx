@@ -87,7 +87,7 @@ export function AboutSection() {
               <h4 className="font-semibold mb-2 text-primary">AI's Impact on Our Future</h4>
               <p className="text-sm text-muted-foreground">
                 "The convergence of AI and human creativity will unlock unprecedented possibilities. From personalized
-                healthcare to sustainable energy solutions, AI will be the catalyst for solving humanity's greatest
+                healthcare to sustainable energy solutions, AI will be the catalyst for solving greatest
                 challenges."
               </p>
             </div>
