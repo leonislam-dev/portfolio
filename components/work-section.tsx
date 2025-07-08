@@ -15,7 +15,7 @@ const projects = [
     description:
       "A comprehensive analytics platform using machine learning to provide predictive insights for business intelligence.",
     image: "/placeholder.svg?height=400&width=600",
-    tags: ["React", "Python", "TensorFlow", "PostgreSQL"],
+    tags: ["Next.Js", "Python", "TensorFlow", "PostgreSQL"],
     liveUrl: "https://example.com",
     githubUrl: "https://github.com/leonislam-dev/ai-dashboard",
     featured: true,
