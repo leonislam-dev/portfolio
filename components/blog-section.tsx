@@ -101,7 +101,7 @@ export function BlogSection() {
 
                   <p className="text-muted-foreground mb-6 leading-relaxed flex-grow line-clamp-3">{post.excerpt}</p>
 
-                  <Button variant="ghost" className="group/btn p-0 h-auto justify-start" asChild>
+                  <Button variant="ghost" className="group/btn border p-0 h-auto justify-start" asChild>
                     <Link href={`/blog/${post.id}`}>
                       Read More
                       <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover/btn:translate-x-1" />
