@@ -16,7 +16,7 @@ const blogPosts = [
       "Exploring how artificial intelligence is revolutionizing the way we build and interact with web applications.",
     image: "/placeholder.svg?height=300&width=500",
     date: "2025-01-15",
-    readTime: "6 min read",
+    readTime: "4 min read",
     category: "AI & Technology",
   },
   {
