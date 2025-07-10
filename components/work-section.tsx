@@ -101,14 +101,14 @@ export function WorkSection() {
                       {project.tags.map((tag) => (
                         <span
                           key={tag}
-                          className="px-3 py-1 bg-primary/10 text-primary rounded-full text-xs font-medium"
+                          className="px-3 py-2 bg-primary/10 text-primary rounded-full text-xs font-medium"
                         >
                           {tag}
                         </span>
                       ))}
                     </div>
 
-                    <h3 className="text-2xl font-bold mb-3 group-hover:text-primary transition-colors">
+                    <h3 className="text-2xl font-semibold mb-3 group-hover:text-primary transition-colors">
                       {project.title}
                     </h3>
 
