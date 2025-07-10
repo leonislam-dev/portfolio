@@ -114,7 +114,7 @@ export function WorkSection() {
 
                     <p className="text-muted-foreground mb-6 boder leading-relaxed">{project.description}</p>
 
-                    <div className="flex gap-3">
+                    <div className="flex gap-4">
                       {project.liveUrl && (
                         <Button size="sm" asChild>
                           <Link href={project.liveUrl} target="_blank">
