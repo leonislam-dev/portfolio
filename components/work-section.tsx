@@ -118,7 +118,7 @@ export function WorkSection() {
                       {project.liveUrl && (
                         <Button size="sm" asChild>
                           <Link href={project.liveUrl} target="_blank">
-                            <ExternalLink className="mr-3 h-4 w-6" />
+                            <ExternalLink className="mr-3 h-6 w-6" />
                             Live Demo
                           </Link>
                         </Button>
