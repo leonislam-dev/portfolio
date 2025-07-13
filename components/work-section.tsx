@@ -112,7 +112,7 @@ export function WorkSection() {
                       {project.title}
                     </h3>
 
-                    <p className="text-muted-foreground mb-6 boder leading-relaxed">{project.description}</p>
+                    <p className="text-muted-foreground mb-6 leading-relaxed">{project.description}</p>
 
                     <div className="flex gap-4">
                       {project.liveUrl && (
