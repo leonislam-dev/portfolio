@@ -123,7 +123,7 @@ export function WorkSection() {
                           </Link>
                         </Button>
                       )}
-                      <Button variant="outline" size="sm" asChild>
+                      <Button variant="outline" size="md" asChild>
                         <Link href={project.githubUrl} target="_blank">
                           <Github className="mr-2 h-4 w-4" />
                           Code
