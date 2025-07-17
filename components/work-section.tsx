@@ -114,7 +114,7 @@ export function WorkSection() {
 
                     <p>{project.description}</p>
 
-                    <div className="flex gap-4">
+                    <div className="flex gap-">
                       {project.liveUrl && (
                         <Button size="sm" asChild>
                           <Link href={project.liveUrl} target="_blank">
