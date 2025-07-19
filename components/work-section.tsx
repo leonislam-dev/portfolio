@@ -81,7 +81,7 @@ export function WorkSection() {
               transition={{ duration: 0.6, delay: index * 0.1 }}
               className={project.featured ? "lg:col-span-2" : ""}
             >
-              <Card className="group overflow-hidden hover:shadow-2xl transition-all duration-300 border-0 border bg-gradient-to-br from-card to-card/50">
+              <Card className="group overflow-hidden hover:shadow-2xl transition-all duration-300 border-1 border bg-gradient-to-br from-card to-card/50">
                 <div className={`relative ${project.featured ? "md:flex" : ""}`}>
                   <div className={`relative overflow-hidden ${project.featured ? "md:w-1/2" : ""}`}>
                     <Image
