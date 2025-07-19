@@ -83,7 +83,7 @@ export function WorkSection() {
             >
               <Card className="group overflow-hidden hover:shadow-2xl transition-all duration-300 border-1 border bg-gradient-to-br from-card to-card/50">
                 <div className={`relative ${project.featured ? "md:flex" : ""}`}>
-                  <div className={`relative overflow-hidden ${project.featured ? "md:w-1/2" : ""}`}>
+                  <div className={`relative overflow-hidden ${project.featured ? "md:w-1/3" : ""}`}>
                     <Image
                       src={project.image || "/placeholder.svg"}
                       alt={project.title}
