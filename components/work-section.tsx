@@ -95,7 +95,7 @@ export function WorkSection() {
                   </div>
 
                   <CardContent
-                    className={`p-6 ${project.featured ? "md:w-1/2 md:flex md:flex-col md:justify-center" : "text-red"}`}
+                    className={`p-6 ${project.featured ? "md:w-1/2 md:flex md:flex-col md:justify-center" : ""}`}
                   >
                     <div className="flex flex-wrap gap-2 mb-4">
                       {project.tags.map((tag) => (
