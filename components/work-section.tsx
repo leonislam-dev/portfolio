@@ -89,7 +89,7 @@ export function WorkSection() {
                       alt={project.title}
                       width={600}
                       height={400}
-                      className="w-full h-64 md:h-80 object-cover transition-transform group-hover:scale-110"
+                      className="w-full h-64 md:h-80 object-cover transition-transform duration-300 group-hover:scale-110"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                   </div>
@@ -97,18 +97,18 @@ export function WorkSection() {
                   <CardContent
                     className={`p-6 ${project.featured ? "md:w-1/2 md:flex md:flex-col md:justify-center" : ""}`}
                   >
-                    <div className="flex flex-wrap gap-2">
+                    <div className="flex flex-wrap gap-2 mb-4">
                       {project.tags.map((tag) => (
                         <span
                           key={tag}
-                          className="px-3 py-2 bg-primary/30 text-primary rounded-full text-xs font-medium"
+                          className="px-3 py-2 bg-primary/20 text-primary rounded-full text-xs font-medium"
                         >
                           {tag}
                         </span>
                       ))}
                     </div>
 
-                    <h3 className="group-hover:text-primary text-2xl font-semibold transition-colors">
+                    <h3 className="group-hover:text-primary text-2xl font-semibold mb-2 transition-colors">
                       {project.title}
                     </h3>
 
