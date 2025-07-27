@@ -19,7 +19,7 @@ export function HeroSection() {
   return (
     <section ref={containerRef} className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Animated Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-primary/5" />
+      <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-primary/10" />
 
       {/* Floating Particles */}
       <div className="absolute inset-0">
