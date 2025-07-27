@@ -91,13 +91,13 @@ export function WorkSection() {
                       height={400}
                       className="w-full h-64 md:h-80 object-cover transition-transform duration-300 group-hover:scale-110"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent  group-hover:opacity-100 transition-opacity duration-300" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                   </div>
 
                   <CardContent
                     className={`p-6 ${project.featured ? "md:w-1/2 md:flex md:flex-col md:justify-center" : ""}`}
                   >
-                    <div className="flex flex-wrap gap-4">
+                    <div className="flex flex-wrap gap-2 mb-4">
                       {project.tags.map((tag) => (
                         <span
                           key={tag}
