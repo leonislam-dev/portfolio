@@ -26,7 +26,7 @@ export function HeroSection() {
         {[...Array(50)].map((_, i) => (
           <motion.div
             key={i}
-            className="absolute w-2 h-1 bg-primary/30 rounded"
+            className="absolute w-2 h-1 bg-primary/40 rounded"
             style={{
               left: `${Math.random() * 100}%`,
               top: `${Math.random() * 100}%`,
