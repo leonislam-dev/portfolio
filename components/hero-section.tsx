@@ -19,14 +19,14 @@ export function HeroSection() {
   return (
     <section ref={containerRef} className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Animated Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-primary/10" />
+      <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-primary/20" />
 
       {/* Floating Particles */}
       <div className="absolute inset-0">
         {[...Array(50)].map((_, i) => (
           <motion.div
             key={i}
-            className="absolute w-1 h-1 bg-primary/30 rounded"
+            className="absolute w-2 h-1 bg-primary/30 rounded"
             style={{
               left: `${Math.random() * 100}%`,
               top: `${Math.random() * 100}%`,
