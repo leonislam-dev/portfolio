@@ -31,14 +31,14 @@ export function Navigation() {
 
   return (
     <motion.header
-      className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-400 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-400 ${
         scrolled ? "bg-background/80 backdrop-blur-md border-b border-border/30" : "bg-transparent"
       }`}
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
     >
-      <nav className="container mx-auto px-4 py-4">
+      <nav className="container mx-auto px-4 py-2">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
