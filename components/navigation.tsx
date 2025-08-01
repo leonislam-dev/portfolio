@@ -32,7 +32,7 @@ export function Navigation() {
   return (
     <motion.header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? "bg-background/80 backdrop-blur-md border-b border-border/30" : "bg-transparent"
+        scrolled ? "bg-background/80 backdrop-blur-md border-b border-border/40" : "bg-transparent"
       }`}
       initial={{ y: -100 }}
       animate={{ y: 0 }}
