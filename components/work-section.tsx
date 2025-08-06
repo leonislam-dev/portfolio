@@ -89,7 +89,7 @@ export function WorkSection() {
                       alt={project.title}
                       width={600}
                       height={400}
-                      className="w-full h-64 md:h-80 object-cover transition-transform duration-100 group-hover:scale-110"
+                      className="w-full h-64 md:h-80 object-cover transition-transform duration-300 group-hover:scale-110"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-90 transition-opacity duration-300" />
                   </div>
