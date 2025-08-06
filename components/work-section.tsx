@@ -108,7 +108,7 @@ export function WorkSection() {
                       ))}
                     </div>
 
-                    <h3 className="group-hover:text-primaryl font-semibold mb-3 transition-colors">
+                    <h3 className="group-hover:text-primaryl font-semibold mb-4 transition-colors">
                       {project.title}
                     </h3>
 
