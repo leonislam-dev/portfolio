@@ -101,7 +101,7 @@ export function WorkSection() {
                       {project.tags.map((tag) => (
                         <span
                           key={tag}
-                          className="px-3 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium"
+                          className="px-3 py-2 bg-primary/30 text-primary rounded-full text-sm font-medium"
                         >
                           {tag}
                         </span>
