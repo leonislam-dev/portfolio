@@ -91,7 +91,7 @@ export function WorkSection() {
                       height={400}
                       className="w-full h-64 md:h-70 object-cover transition-transform duration-500 group-hover:scale-110"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-80 transition-opacity duration-400" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-80 transition-opacity duration-300" />
                   </div>
 
                   <CardContent
